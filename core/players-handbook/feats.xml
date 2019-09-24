@@ -827,10 +827,10 @@
 
 	<element name="Savage Attacker" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SAVAGEATTACKER">
 		<description>
-			<p>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice as use either total.</p>
+			<p>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon’s damage dice and use either total.</p>
 		</description>
 		<sheet>
-			<description>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice as use either total.</description>
+			<description>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon’s damage dice and use either total.</description>
 		</sheet>
 	</element>
 	<element name="Sentinel" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SENTINEL">

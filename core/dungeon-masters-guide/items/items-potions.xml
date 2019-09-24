@@ -361,7 +361,7 @@
 	<element name="Potion of Frost Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_FROST_GIANT_STRENGTH">		
 		<description>
 			<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p>
-			<p class="indent">This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The				<em>potion of frost giant strength</em> and the				<em>potion of stone giant strength</em> have the same effect.</p>
+			<p class="indent">This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p>
 			<table> <thead> <tr> <th>Type of Giant</th> <th>Strength</th> <th>Rarity</th> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>
 		</description>
 		<setters>
@@ -375,7 +375,7 @@
 	</element>
 	<element name="Potion of Gaseous Form" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_GASEOUS_FORM">		
 		<description>
-			<p>When you drink this potion, you gain the effect of the<em>gaseous form</em> spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion’s container seems to hold fog that moves and pours like water.</p>
+			<p>When you drink this potion, you gain the effect of the <em>gaseous form</em> spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion’s container seems to hold fog that moves and pours like water.</p>
 		</description>
 		<setters>
 			<set name="category">Potions</set>
@@ -401,7 +401,7 @@
 	</element>
 	<element name="Potion of Invulnerability" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_INVULNERABILITY">		
 		<description>
-			<p>For 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquified iron.</p>
+			<p>For 1 minute after you drink this potion, you have resistance to all damage. The potion’s syrupy liquid looks like liquified iron.</p>
 		</description>
 		<setters>
 			<set name="keywords">resistance</set>
@@ -415,7 +415,7 @@
 	</element>
 	<element name="Potion of Mind Reading" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_MIND_READING">		
 		<description>
-			<p>When you drink this potion, you gain the effect of the<em>detect thoughts</em> spell (save DC 13). The potion’s dense, purple liquid has an ovoid cloud of pink floating in it.</p>
+			<p>When you drink this potion, you gain the effect of the <em>detect thoughts</em> spell (save DC 13). The potion’s dense, purple liquid has an ovoid cloud of pink floating in it.</p>
 		</description>
 		<setters>
 			<set name="category">Potions</set>
@@ -429,7 +429,7 @@
 	<element name="Potion of Stone Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_STONE_GIANT_STRENGTH">		
 		<description>
 			<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p>
-			<p class="indent">This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The				<em>potion of frost giant strength</em> and the				<em>potion of stone giant strength</em> have the same effect.</p>
+			<p class="indent">This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p>
 			<table> <thead> <tr> <th>Type of Giant</th> <th>Strength</th> <th>Rarity</th> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>
 		</description>
 		<setters>
@@ -444,7 +444,7 @@
 	<element name="Potion of Cloud Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_CLOUD_GIANT_STRENGTH">		
 		<description>
 			<p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p>
-			<p class="indent">This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The				<em>potion of frost giant strength</em> and the				<em>potion of stone giant strength</em> have the same effect.</p>
+			<p class="indent">This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The <em>potion of frost giant strength</em> and the <em>potion of stone giant strength</em> have the same effect.</p>
 			<table> <thead> <tr> <th>Type of Giant</th> <th>Strength</th> <th>Rarity</th> </tr> </thead> <tbody> <tr> <td>Hill giant</td> <td>21</td> <td>Uncommon</td> </tr> <tr> <td>Frost/stone giant</td> <td>23</td> <td>Rare</td> </tr> <tr> <td>Fire giant</td> <td>25</td> <td>Rare</td> </tr> <tr> <td>Cloud giant</td> <td>27</td> <td>Very rare</td> </tr> <tr> <td>Storm giant</td> <td>29</td> <td>Legendary</td> </tr> </tbody> </table>
 		</description>
 		<setters>
@@ -484,7 +484,7 @@
 	</element>
 	<element name="Potion of Longevity" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_LONGEVITY">		
 		<description>
-			<p>When you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a <em>potion of longevity</em>, there is 10 percent cumulative chance that you instead age by 1d6 + 6 years. Suspended in this amber liquid are a scorpion's tail, an adder's fang, a dead spider, and a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.</p>
+			<p>When you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a <em>potion of longevity</em>, there is 10 percent cumulative chance that you instead age by 1d6 + 6 years. Suspended in this amber liquid are a scorpion’s tail, an adder’s fang, a dead spider, and a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.</p>
 		</description>
 		<setters>
 			<set name="category">Potions</set>
@@ -510,7 +510,7 @@
 	</element>
 	<element name="Potion of Vitality" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_VITALITY">		
 		<description>
-			<p>When you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.</p>
+			<p>When you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion’s crimson liquid regularly pulses with dull light, calling to mind a heartbeat.</p>
 		</description>
 		<setters>
 			<set name="keywords">disease, poison</set>
