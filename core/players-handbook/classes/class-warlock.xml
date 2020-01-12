@@ -4,7 +4,7 @@
 		<name>Warlock</name>
 		<description>The Warlock class from the Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.3.6">
+		<update version="0.3.7">
 			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-warlock.xml" />
 		</update>
 	</info>
@@ -354,7 +354,7 @@
 			<description>You can cast mage armor on yourself at will, without expending a spell slot or material components.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Ascendant Step" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
@@ -372,7 +372,7 @@
 			<description>You can cast levitate on yourself at will, without expending a spell slot or material components.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Beast Speech" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEAST_SPEECH">
@@ -387,7 +387,7 @@
 			<description>You can cast speak with animals at will, without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Beguiling Influence" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEGUILING_INFLUENCE">
@@ -418,7 +418,7 @@
 			<description>You can cast compulsion once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_COMPULSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMPULSION" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Book of Ancient Secrets" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BOOK_OF_ANCIENT_SECRETS">
@@ -453,7 +453,7 @@
 			<description>You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Devil’s Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
@@ -480,7 +480,7 @@
 			<description>You can cast confusion once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Eldritch Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SIGHT">
@@ -495,7 +495,7 @@
 			<description>You can cast detect magic at will, without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Eldritch Spear" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_Eldritch_Spear">
@@ -537,7 +537,7 @@
 			<description>You can cast false life on yourself at will, without expending a spell slot or material components.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" />
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Gaze of Two Minds" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
@@ -577,7 +577,7 @@
 			<description>You can cast disguise self at will, without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Master of Myriad Forms" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
@@ -595,7 +595,7 @@
 			<description>You can cast alter self at will, without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Minions of Chaos" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MINIONS_OF_CHAOS">
@@ -613,7 +613,7 @@
 			<description>You can cast conjure elemental once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Mire the Mind" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MIRE_THE_MIND">
@@ -631,7 +631,7 @@
 			<description>You can cast slow once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SLOW" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLOW" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Misty Visions" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
@@ -646,7 +646,7 @@
 			<description>You can cast silent image at will, without expending a spell slot or material components.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" />
+			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="One with Shadows" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
@@ -676,7 +676,7 @@
 			<description>You can cast jump on yourself at will, without expending a spell slot or material components.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+			<grant type="Spell" id="ID_PHB_SPELL_JUMP" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Repelling Blast" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST">
@@ -709,7 +709,7 @@
 			<description>You can cast polymorph once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" />
+			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Sign of Ill Omen" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGN_OF_ILL_OMEN">
@@ -727,7 +727,7 @@
 			<description>You can cast bestow curse once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" />
+			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Thief of Five Fates" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIEF_OF_FIVE_FATES">
@@ -742,7 +742,7 @@
 			<description>You can cast bane once using a warlock spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BANE" />
+			<grant type="Spell" id="ID_PHB_SPELL_BANE" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Thirsting Blade" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE">
@@ -772,7 +772,7 @@
 			<description>You can cast arcane eye at will, without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" />
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Voice of the Chain Master" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VOICE_OF_THE_CHAIN_MASTER">
@@ -802,7 +802,7 @@
 			<description>You can cast speak with dead at will, without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Witch Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">

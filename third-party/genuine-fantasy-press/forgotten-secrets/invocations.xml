@@ -4,7 +4,7 @@
 		<name>Invocations</name>
 		<description>COFSA Invocations</description>
 		<author url="www.genfantasypress.com">Genuine Fantasy Press</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="invocations.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/genuine-fantasy-press/forgotten-secrets/invocations.xml" />
 		</update>
 	</info>
@@ -73,7 +73,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MENDING" />
+			<grant type="Spell" id="ID_PHB_SPELL_MENDING" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Tenebrous Blast" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_TENEBROUS_BLAST">
@@ -396,8 +396,8 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MENDING" />
-			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
+			<grant type="Spell" id="ID_PHB_SPELL_MENDING" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Hammer of Dawn" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_HAMMER_OF_DAWN">
@@ -531,7 +531,7 @@
 			</description>
 		</sheet>
 		<rules> 
-			<grant type="Spell" id="ID_PHB_SPELL_WISH" />
+			<grant type="Spell" id="ID_PHB_SPELL_WISH" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Ledger of the Deceased" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_LEDGER_OF_THE_DECEASED">
@@ -614,7 +614,7 @@
 			</description>
 		</sheet>
 		<rules> 
-			<grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" />
+			<grant type="Spell" id="ID_PHB_SPELL_HEALING_WORD" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Soul-Burning Incantation" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_SOUL_BURNING_INCANTATION">
@@ -809,8 +809,8 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MIRAGE_ARCANE" />
-			<grant type="Spell" id="ID_PHB_SPELL_SYMBOL" />
+			<grant type="Spell" id="ID_PHB_SPELL_MIRAGE_ARCANE" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_PHB_SPELL_SYMBOL" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Paper Cut" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_PAPER_CUT">
@@ -829,7 +829,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Signature Work" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGNATURE_WORK">
@@ -848,7 +848,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_PROGRAMMED_ILLUSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_PROGRAMMED_ILLUSION" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Thou Art Immortal" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_THOU_ART_IMORTAL">
@@ -979,7 +979,7 @@
 			</description>
 		</sheet>
 		<rules> 
-			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" />
+			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Cheerful Duet" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_CHEERFUL_DUET">
@@ -1046,7 +1046,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_OTTOS_IRRESISTIBLE_DANCE" />
+			<grant type="Spell" id="ID_PHB_SPELL_OTTOS_IRRESISTIBLE_DANCE" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Cold Blooded" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_COLD_BLOODED">
@@ -1065,7 +1065,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" />
+			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Commanding Presence" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_COMMANDING_PRESENCE">
@@ -1260,7 +1260,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Dance of the Storm" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_DANCE_OF_THE_STORM">
@@ -1279,7 +1279,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_FLY" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLY" spellcasting="Warlock" />
 		</rules>
 	</element>	
 	<element name="Essence of the Sky" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_ESSENCE_OF_THE_SKY">
@@ -1374,7 +1374,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" />
+			<grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Servant Priests" type="Class Feature" source="The Compendium of Forgotten Secrets" id="ID_GFP_COFSA_CLASS_FEATURE_ELDRITCH_INVOCATION_SERVANT_PRIESTS">
